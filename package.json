@@ -1,0 +1,34 @@
+{
+  "name": "dsh-qc",
+  "version": "0.1.0",
+  "description": "抽检方案与质检清单：GB/T 2828.1 样本量、AQL 接收/拒收、分类检查项",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "quality inspection",
+    "质检",
+    "AQL",
+    "qc",
+    "manufacturing"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-qc.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
